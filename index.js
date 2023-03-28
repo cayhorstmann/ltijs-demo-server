@@ -12,10 +12,10 @@ lti.setup(process.env.LTI_KEY,
   }, {
     staticPath: path.join(__dirname, './public'), // Path to static files
     cookies: {
-      secure: false, // Set secure to true if the testing platform is in a different domain and https is being used
-      sameSite: '' // Set sameSite to 'None' if the testing platform is in a different domain and https is being used
+      secure: true, // Set secure to true if the testing platform is in a different domain and https is being used
+      sameSite: 'None' // Set sameSite to 'None' if the testing platform is in a different domain and https is being used
     },
-    devMode: true, // Set DevMode to true if the testing platform is in a different domain and https is not being used
+    devMode: false, // Set DevMode to true if the testing platform is in a different domain and https is not being used
     dynReg: {
       url: 'https://ltijs-demo-service.onrender.com', // Tool Provider URL. Required field.
       name: 'ltijs Demo Tool Provider', // Tool Provider name. Required field.
