@@ -15,7 +15,12 @@ lti.setup(process.env.LTI_KEY,
       secure: false, // Set secure to true if the testing platform is in a different domain and https is being used
       sameSite: '' // Set sameSite to 'None' if the testing platform is in a different domain and https is being used
     },
-    devMode: true // Set DevMode to true if the testing platform is in a different domain and https is not being used
+    devMode: true, // Set DevMode to true if the testing platform is in a different domain and https is not being used
+    dynReg: {
+      url: 'https://ltijs-demo-service.onrender.com', // Tool Provider URL. Required field.
+      name: 'ltijs Demo Tool Provider', // Tool Provider name. Required field.
+      autoActivate: true // Whether or not dynamically registered Platforms should be automatically activated. Defaults to false.
+    }
   })
 
 // When receiving successful LTI launch redirects to app
