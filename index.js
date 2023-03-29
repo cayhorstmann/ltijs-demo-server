@@ -43,14 +43,14 @@ const setup = async () => {
   /**
    * Register platform
    */
-  /* await lti.registerPlatform({
-    url: 'http://localhost/moodle',
-    name: 'Platform',
-    clientId: 'CLIENTID',
-    authenticationEndpoint: 'http://localhost/moodle/mod/lti/auth.php',
-    accesstokenEndpoint: 'http://localhost/moodle/mod/lti/token.php',
-    authConfig: { method: 'JWK_SET', key: 'http://localhost/moodle/mod/lti/certs.php' }
-  }) */
+   await lti.registerPlatform({
+    url: 'https://horstmann.com/moodle',
+    name: 'horstmann.com Moodle',
+    clientId: 'f3zOgmWzJobqEOf',
+    authenticationEndpoint: 'https://horstmann.com/moodle/mod/lti/auth.php',
+    accesstokenEndpoint: 'https://horstmann.com/moodle/mod/lti/token.php',
+    authConfig: { method: 'JWK_SET', key: 'https://horstmann.com/moodle/mod/lti/certs.php' }
+  }) 
 }
 
 setup()
