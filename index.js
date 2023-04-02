@@ -57,8 +57,8 @@ const setup = async () => {
     name: 'Saltire Test Platform',
     clientId: 'cLWwj9cbmkSrCNsckEFBmA',
     authenticationEndpoint: 'https://saltire.lti.app/platform/auth',
-    accesstokenEndpoint: 'https://saltire.lti.app/platform/token/s5277181b4ef2ecefd58c3b6bafecd087',
-    authConfig: { method: 'JWK_SET', key: 'https://saltire.lti.app/platform/jwks/s5277181b4ef2ecefd58c3b6bafecd087' }
+    accesstokenEndpoint: 'https://saltire.lti.app/platform/token/991709afb9ba2aece901f7d0d6ff31cf',
+    authConfig: { method: 'JWK_SET', key: 'https://saltire.lti.app/platform/jwks/991709afb9ba2aece901f7d0d6ff31cf' }
   }) 
   
 }
