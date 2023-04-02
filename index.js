@@ -58,14 +58,8 @@ const setup = async () => {
     clientId: 'cLWwj9cbmkSrCNsckEFBmA',
     authenticationEndpoint: 'https://saltire.lti.app/platform/auth',
     accesstokenEndpoint: 'https://saltire.lti.app/platform/token/991709afb9ba2aece901f7d0d6ff31cf',
-    authConfig: { method: 'RSA_KEY', key: {
-    "kty": "RSA",
-    "n": "sH8_-uavYxkWoEXm0QHDrZbfWByo0pEQdpy-EEdiQU_LVxlS4Et-ArUVq28hf1PRgGxRGEMzVXddyUgrrYuPV_17okqZZshfJnjqUpcN5d-mkyIs3XO-DLqI2UIoNXtEP5zlWvJTkqzUUlXg9y3QIHM_-1j8G3KeJKxIhezuLIUMJLSfJv3CgKF6CHPCT0JLPbOEStDCzzqQwIulDhU3Ts6N4CPttOoG8w9FS0Z6fJjYWeeztAtstBggXw4_Hgq7_-TaxV8tct5rWighV50Z5SJA1xi7w4GlfvV4EpwixUfSOZzAN_RAzFoiq6MgBCl-rtb7mCAxuSfkD5xSoMe0rw",
-    "e": "AQAB",
-    "alg": "RS256",
-    "use": "sig",
-    "kid": "6ox0b5ag4w"
-} }
+    authConfig: { method: 'RSA_KEY', key: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsH8/+uavYxkWoEXm0QHDrZbfWByo0pEQdpy+EEdiQU/LVxlS4Et+ArUVq28hf1PRgGxRGEMzVXddyUgrrYuPV/17okqZZshfJnjqUpcN5d+mkyIs3XO+DLqI2UIoNXtEP5zlWvJTkqzUUlXg9y3QIHM/+1j8G3KeJKxIhezuLIUMJLSfJv3CgKF6CHPCT0JLPbOEStDCzzqQwIulDhU3Ts6N4CPttOoG8w9FS0Z6fJjYWeeztAtstBggXw4/Hgq7/+TaxV8tct5rWighV50Z
+5SJA1xi7w4GlfvV4EpwixUfSOZzAN/RAzFoiq6MgBCl+rtb7mCAxuSfkD5xSoMe0rwIDAQAB'}
   }) 
   
 }
