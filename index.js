@@ -53,7 +53,7 @@ const setup = async () => {
   }) 
   
    await lti.registerPlatform({
-    url: 'https://saltire.lti.app/tool',
+    url: 'https://saltire.lti.app/platform',
     name: 'Saltire Test Platform',
     clientId: 'saltire.lti.app',
     authenticationEndpoint: 'https://saltire.lti.app/platform/auth',
