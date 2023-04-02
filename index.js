@@ -51,6 +51,16 @@ const setup = async () => {
     accesstokenEndpoint: 'https://horstmann.com/moodle/mod/lti/token.php',
     authConfig: { method: 'JWK_SET', key: 'https://horstmann.com/moodle/mod/lti/certs.php' }
   }) 
+  
+   await lti.registerPlatform({
+    url: 'https://saltire.lti.app/tool',
+    name: 'Saltire Test Platform',
+    clientId: 'cLWwj9cbmkSrCNsckEFBmA',
+    authenticationEndpoint: 'https://saltire.lti.app/platform/auth',
+    accesstokenEndpoint: 'https://saltire.lti.app/platform/token/s5277181b4ef2ecefd58c3b6bafecd087',
+    authConfig: { method: 'JWK_SET', key: 'https://saltire.lti.app/platform/jwks/s5277181b4ef2ecefd58c3b6bafecd087' }
+  }) 
+  
 }
 
 setup()
