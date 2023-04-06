@@ -46,7 +46,7 @@ const setup = async () => {
    await lti.registerPlatform({
     url: 'https://horstmann.com/moodle',
     name: 'horstmann.com Moodle',
-    clientId: 'f3zOgmWzJobqEOf',
+    clientId: 'H78ctv5pJ5IOQVx',
     authenticationEndpoint: 'https://horstmann.com/moodle/mod/lti/auth.php',
     accesstokenEndpoint: 'https://horstmann.com/moodle/mod/lti/token.php',
     authConfig: { method: 'JWK_SET', key: 'https://horstmann.com/moodle/mod/lti/certs.php' }
