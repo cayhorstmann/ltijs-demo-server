@@ -53,11 +53,11 @@ const setup = async () => {
   }) 
   
    await lti.registerPlatform({
-    url: 'https://saltire.lti.app/platform',
+     url: 'https://saltire.lti.app/platform',
     name: 'Saltire Test Platform',
     clientId: 'saltire.lti.app',
     authenticationEndpoint: 'https://saltire.lti.app/platform/auth',
-    accesstokenEndpoint: 'https://saltire.lti.app/platform/token/991709afb9ba2aece901f7d0d6ff31cf',
+    accesstokenEndpoint: 'https://saltire.lti.app/platform/token/sea01230dc44abddf472bea6674beb0f2',
     authConfig: { method: 'RSA_KEY', key: 
 `-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsH8/+uavYxkWoEXm0QHD
