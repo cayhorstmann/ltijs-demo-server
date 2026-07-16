@@ -36,6 +36,7 @@ router.post('/grade', async (req, res) => {
         lineItemId = lineItem.id
       } else lineItemId = lineItems[0].id
     }
+    console.log({idtoken, lineItemId, gradeObj})
 
     // Sending Grade
     const responseGrade = await lti.Grade.submitScore(idtoken, lineItemId, gradeObj)
